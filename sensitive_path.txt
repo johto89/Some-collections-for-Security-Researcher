@@ -1,8 +1,3 @@
-#! Paths wordlist
-#! v0.1
-#! Contributors:
-#!  Vitor Oriel
-#!
 !.gitignore
 !.htaccess
 !.htpasswd
