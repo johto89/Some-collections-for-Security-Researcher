@@ -110,3 +110,8 @@ ${spring:profiles.active[0]
 ${sys:logPath}
 ${web:rootDir}
 ```
+Forensics
+```
+sudo grep -r '${jndi:ldap://' /var/log 
+sudo egrep -i -r '\$\{jndi:(ldap[s]?|rmi)://' /var/log
+```
